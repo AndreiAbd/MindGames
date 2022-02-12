@@ -23,6 +23,10 @@ function mode() {
 
         document.getElementById("startExpert").style.display = 'block';
 
+    } else {
+        document.getElementById("startEasy").style.display = 'none';
+        document.getElementById("startExpert").style.display = 'none';
+
     }
 }
 //Disable Right Mouse Click
